@@ -272,7 +272,7 @@ def run_single_account(total, idx, user_mi, passwd_mi):
         log_str += traceback.format_exc()
         exec_result = {"user": user_mi, "success": False,
                        "msg": f"执行异常:{traceback.format_exc()}"}
-    print(log_str)
+    # print(log_str)
     return exec_result
 
 
